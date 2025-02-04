@@ -62,6 +62,7 @@ defineProps<IProps>();
         justify-content: center;
         align-items: center;
         width: 100px;
+        min-width: 100px;
         height: 100%;
         font-size: 25px;
     }
