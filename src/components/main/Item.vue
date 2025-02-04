@@ -69,9 +69,18 @@ defineProps<IProps>();
 
     .name {
         font-size: 28px;
+        word-break: break-word;
     }
 
     .link {
         font-size: 20px;
+        word-break: break-word;
+    }
+
+    @media screen and (width <= 600px) {
+        .numb {
+            width: 50px;
+            min-width: 50px;
+        }
     }
 </style>

@@ -31,7 +31,7 @@ const headerClasses = computed(() => ({
         align-items: center;
         gap: 16px;
         width: 100%;
-        height: 60px;
+        min-height: 60px;
         padding-inline: 16px;
         background-color: var(--background-color);
     }

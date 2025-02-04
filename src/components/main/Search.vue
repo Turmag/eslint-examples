@@ -93,4 +93,10 @@ watch(
         cursor: pointer;
         user-select: none;
     }
+
+    @media screen and (width <= 700px) {
+        .filter {
+            width: 250px;
+        }
+    }
 </style>
