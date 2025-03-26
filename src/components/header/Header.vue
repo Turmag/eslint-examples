@@ -45,5 +45,6 @@ const headerClasses = computed(() => ({
         color: var(--color);
         font-size: 28px;
         font-weight: bold;
+        line-height: 120%;
     }
 </style>

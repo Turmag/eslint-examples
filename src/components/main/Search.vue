@@ -65,7 +65,7 @@ watch(
 
     .wrapperSticky {
         position: sticky;
-        top: 60px;
+        top: 62px;
         left: 0;
         box-shadow: 0 3px 2px 0 var(--shadow-color);
     }
@@ -101,6 +101,12 @@ watch(
 
         .filter {
             width: 250px;
+        }
+    }
+
+    @media screen and (width <= 484px) {
+        .wrapperSticky {
+            top: 95px;
         }
     }
 </style>
