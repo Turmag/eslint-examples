@@ -31,9 +31,9 @@ import {
 } from 'vue';
 import Checkbox from '@/components/common/Checkbox.vue';
 import SvgIcon from '@/components/common/SvgIcon.vue';
-import { mainStore } from '@/store/main.store';
+import { useMainStore } from '@/store/useMain.store';
 
-const store = mainStore();
+const store = useMainStore();
 const $style = useCssModule();
 const isStickyFilters = useStorage('isStickyFilters', false);
 

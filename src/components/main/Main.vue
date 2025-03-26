@@ -15,9 +15,9 @@
 <script setup lang="ts">
 import Item from '@/components/main/Item.vue';
 import Search from '@/components/main/Search.vue';
-import { mainStore } from '@/store/main.store';
+import { useMainStore } from '@/store/useMain.store';
 
-const store = mainStore();
+const store = useMainStore();
 </script>
 
 <style lang="scss" module>

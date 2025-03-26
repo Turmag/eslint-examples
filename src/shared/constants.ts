@@ -2,6 +2,10 @@ import type { IConfig } from '@/shared/types';
 
 export const configs: IConfig[] = [
     {
+        link: 'https://eslint.org/docs/latest/rules',
+        name: 'ESLint rules',
+    },
+    {
         link: 'https://github.com/dustinspecker/awesome-eslint',
         name: 'AWESOME ESLint',
     },
