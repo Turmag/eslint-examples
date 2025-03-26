@@ -95,6 +95,10 @@ watch(
     }
 
     @media screen and (width <= 700px) {
+        .wrapper {
+            gap: 8px;
+        }
+
         .filter {
             width: 250px;
         }
