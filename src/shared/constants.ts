@@ -6,6 +6,10 @@ export const configs: IConfig[] = [
         name: 'ESLint rules',
     },
     {
+        link: 'https://explorer.eslint.org',
+        name: 'ESLint Code Explorer',
+    },
+    {
         link: 'https://github.com/dustinspecker/awesome-eslint',
         name: 'AWESOME ESLint',
     },
